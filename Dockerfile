@@ -1,4 +1,5 @@
-FROM java:8-jre
+#FROM java:8-jre
+FROM openjdk:alpine 
 
 MAINTAINER BeStRiPeR <bestriper@gmail.com> (https://hub.docker.com/u/bestriper/)
 
