@@ -22,5 +22,5 @@ will service port 25566
 
 If you want the docker to create your own map, do not put any route or you can indicate where you want the volume of the map and he will generate it only when you start it.
 
-==============================
+
 :-:-: BeStRiPeR :-:-:
