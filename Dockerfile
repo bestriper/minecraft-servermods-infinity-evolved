@@ -2,7 +2,7 @@ FROM java:8-jre
 
 MAINTAINER BeStRiPeR <bestriper@gmail.com> (https://hub.docker.com/u/bestriper/)
 
- Updating container
+#Updating container
 RUN apt-get update && \
 	apt-get upgrade --yes --force-yes && \
 	apt-get clean && \ 
