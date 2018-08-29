@@ -1,15 +1,12 @@
 #FROM java:8-jre
-FROM openjdk:alpine 
 
 MAINTAINER BeStRiPeR <bestriper@gmail.com> (https://hub.docker.com/u/bestriper/)
 
-# Updating container
-#RUN apt-get update && \
-#	apt-get upgrade --yes --force-yes && \
-#	apt-get clean && \ 
-#	rm -rf /var/lib/apt/lists/* 
-
-RUN apk update && apk add curl bash
+ Updating container
+RUN apt-get update && \
+	apt-get upgrade --yes --force-yes && \
+	apt-get clean && \ 
+	rm -rf /var/lib/apt/lists/* 
 
 # Setting workdir
 WORKDIR /minecraft
